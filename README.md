@@ -30,9 +30,13 @@ The Poisson distribution is the discrete probability distribution of the number 
 
 # Program :
 import numpy as np
+
 import math
+
 import scipy.stats
+
 L=[int(i) for i in input().split()]
+
 N=len(L); M=max(L) 
 X=list();f=list()
 for i in range (M+1):
